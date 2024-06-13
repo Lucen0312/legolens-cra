@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/legolens-cra/static/css/main.e6c13ad2.css",
+    "main.js": "/legolens-cra/static/js/main.e6c6edba.js",
+    "static/js/453.8b97f692.chunk.js": "/legolens-cra/static/js/453.8b97f692.chunk.js",
+    "index.html": "/legolens-cra/index.html",
+    "main.e6c13ad2.css.map": "/legolens-cra/static/css/main.e6c13ad2.css.map",
+    "main.e6c6edba.js.map": "/legolens-cra/static/js/main.e6c6edba.js.map",
+    "453.8b97f692.chunk.js.map": "/legolens-cra/static/js/453.8b97f692.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e6c6edba.js"
+  ]
+}
