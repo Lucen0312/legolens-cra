@@ -11,6 +11,7 @@ interface PieceData {
 
 const InfoPopup = (): JSX.Element => {
   const [pieceData, setPieceData] = useState<PieceData | null>(null);
+  const [isOpen, setIsOpen] = useState(false); // Add this line
 
   useEffect(() => {
     const apiKey = 'b28a21d50bb2c27c9c4adcaca8fc588c';
@@ -32,7 +33,7 @@ const InfoPopup = (): JSX.Element => {
   }, []);
 
   return (
-    <div className="w-[350px] h-[500px] bg-white">
+    <div className={`w-[350px] h-[500px] bg-white ${isOpen ? '' : 'hidden'}`}> {/* Update this line */}
       <div className="relative h-[500px] bg-[#ffcf00] rounded-[30px]">
         <div className="absolute w-[300px] h-[200px] top-[25px] left-[25px] bg-white rounded-[5px]">
           <div className="absolute w-[124px] h-[39px] top-[62px] left-[86px] [font-family:'Inter-Regular',Helvetica] font-normal text-black text-xs text-center tracking-[0] leading-[normal]">

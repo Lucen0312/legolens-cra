@@ -26,12 +26,12 @@ function Main() {
           <div className="flex gap-5 justify-between mt-36 mb-20 w-full">
             <img
               loading="lazy"
-              srcSet="/LegoLens/images/leftarrow.svg"
+              srcSet={`${process.env.PUBLIC_URL}/LegoLens/images/leftarrow.svg`}
               className="shrink-0 aspect-square w-[15vw]"
             />
             <img
               loading="lazy"
-              srcSet="/LegoLens/images/rightarrow.svg"
+              srcSet={`${process.env.PUBLIC_URL}/LegoLens/images/rightarrow.svg`}
               className="shrink-0 aspect-square w-[15vw]"
             />
           </div>
@@ -42,7 +42,7 @@ function Main() {
             <div className="flex justify-center items-center px-8 bg-red-700 rounded-full border-2 border-black border-solid h-[30vw] stroke-[2vw] w-[30vw]">
                 <img
                   loading="lazy"
-                  srcSet="/LegoLens/images/camera.svg"
+                  srcSet={`${process.env.PUBLIC_URL}/LegoLens/images/camera.svg`}
                   className="aspect-square w-[22.5vw]"
                 />
             </div>
@@ -51,7 +51,7 @@ function Main() {
             <div className="flex justify-center items-center px-8 bg-green-600 rounded-full border-2 border-black border-solid h-[30vw] stroke-[2vw] w-[30vw]">
                 <img
                   loading="lazy"
-                  srcSet="/LegoLens/images/set.svg"
+                  srcSet={`${process.env.PUBLIC_URL}/LegoLens/images/set.svg`}
                   className="aspect-square w-[22.5vw]"
                 />
             </div>
@@ -62,7 +62,7 @@ function Main() {
             <div className="flex justify-center items-center px-8 bg-blue-700 rounded-full border-2 border-black border-solid h-[30vw] stroke-[2vw] w-[30vw]">
               <img
                 loading="lazy"
-                srcSet="/LegoLens/images/user.svg"
+                srcSet={`${process.env.PUBLIC_URL}/LegoLens/images/user.svg`}
                 className="aspect-square w-[22.5vw]"
               />
             </div>
@@ -70,7 +70,7 @@ function Main() {
             <div className="flex justify-center items-center px-8 rounded-full border-2 border-black border-solid bg-yellow-400 bg-opacity-80 h-[30vw] stroke-[2vw] w-[30vw]">
               <img
                 loading="lazy"
-                srcSet="/LegoLens/images/tripledot.svg"
+                srcSet={`${process.env.PUBLIC_URL}/LegoLens/images/tripledot.svg`}
                 className="aspect-square w-[22.5vw]"
               />
             </div>
